@@ -3,9 +3,9 @@ import random
 class MatrixMultiplication:
     def __init__(self, size):
         self.size = size
-        self.a = [[0.0 for _ in range(size)] for _ in range(size)]
-        self.b = [[0.0 for _ in range(size)] for _ in range(size)]
-        self.c = [[0.0 for _ in range(size)] for _ in range(size)]
+        self.a = [[0.0 for i in range(size)] for i in range(size)]
+        self.b = [[0.0 for i in range(size)] for i in range(size)]
+        self.c = [[0.0 for i in range(size)] for i in range(size)]
 
     def initialize_matrices(self):
         for i in range(self.size):
